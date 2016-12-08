@@ -2,6 +2,7 @@ declared-services:
   dashDB-demo:
     label: dashDB
     plan: Entry
+    
 applications:
 - path: target/spring-boot-demo-app-v1-1.0.war
   memory: 512M
@@ -10,5 +11,7 @@ applications:
   name: springboot-demo
   host: springboot-demo
   disk_quota: 1024M
+  env:
+    JBP_CONFIG_IBMJDK "version: 1.8.+"
   services:
   - dashDB-demo
