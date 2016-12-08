@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ibm.klab.demo</groupId>
-	<artifactId>spring-boot-demo-app</artifactId>
+	<artifactId>spring-boot-demo-app-v1</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 
-	<name>SpringBootDemoApp</name>
+	<name>SpringBootDemoApp-v1</name>
 	<description>Spring Boot demo project for Blumix DevOps</description>
 
 	<parent>
