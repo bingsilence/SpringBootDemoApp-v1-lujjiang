@@ -3,12 +3,12 @@ declared-services:
     label: dashDB
     plan: Entry
 applications:
-- path: target/spring-boot-maven-dash-1.0.war
+- path: target/spring-boot-demo-app-v1-1.0.war
   memory: 512M
-  instances: 2
+  instances: 1
   domain: mybluemix.net
-  name: springboot-dash
-  host: springboot-dash
+  name: springboot-demo
+  host: springboot-demo
   disk_quota: 1024M
   services:
   - dashDB-demo
