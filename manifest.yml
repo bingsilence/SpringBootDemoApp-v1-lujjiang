@@ -8,8 +8,8 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: springboot-demo
-  host: springboot-demo
+  name: SpringBootDemoApp-1431
+  host: SpringBootDemoApp-1431
   disk_quota: 1024M
   services:
   - dashDB-demo
